@@ -2,7 +2,7 @@ def roll_call_dwarves(array) # code an argument here
   # Your code here
   i = 1
   array.each do |dwarf|
-    puts string(i) + dwarf
+    puts i.to_s + ". " + dwarf
     i += 1
   end
 end
